@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860EFB66285F329600577919 /* GoodMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB65285F329600577919 /* GoodMindApp.swift */; };
+		860EFB68285F329600577919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB67285F329600577919 /* ContentView.swift */; };
+		860EFB6A285F329800577919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFB69285F329800577919 /* Assets.xcassets */; };
+		860EFB6D285F329800577919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFB6C285F329800577919 /* Preview Assets.xcassets */; };
+		860EFB77285F329800577919 /* GoodMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB76285F329800577919 /* GoodMindTests.swift */; };
+		860EFB81285F329900577919 /* GoodMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB80285F329900577919 /* GoodMindUITests.swift */; };
+		860EFB83285F329900577919 /* GoodMindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB82285F329900577919 /* GoodMindUITestsLaunchTests.swift */; };
+		860EFB87285F329900577919 /* GoodMind WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 860EFB86285F329900577919 /* GoodMind WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		860EFB8C285F329A00577919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFB8B285F329A00577919 /* Assets.xcassets */; };
+		860EFB92285F329A00577919 /* GoodMind WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 860EFB91285F329A00577919 /* GoodMind WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		860EFB97285F329A00577919 /* GoodMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB96285F329A00577919 /* GoodMindApp.swift */; };
+		860EFB99285F329A00577919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB98285F329A00577919 /* ContentView.swift */; };
+		860EFB9B285F329A00577919 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB9A285F329A00577919 /* NotificationController.swift */; };
+		860EFB9D285F329A00577919 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB9C285F329A00577919 /* NotificationView.swift */; };
+		860EFB9F285F329A00577919 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB9E285F329A00577919 /* ComplicationController.swift */; };
+		860EFBA1285F329B00577919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFBA0285F329B00577919 /* Assets.xcassets */; };
+		860EFBA4285F329B00577919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFBA3285F329B00577919 /* Preview Assets.xcassets */; };
+		860EFBB0285F329B00577919 /* GoodMind_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFBAF285F329B00577919 /* GoodMind_WatchKit_AppTests.swift */; };
+		860EFBBA285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFBB9285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift */; };
+		860EFBBC285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFBBB285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		860EFB73285F329800577919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860EFB5A285F329600577919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860EFB61285F329600577919;
+			remoteInfo = GoodMind;
+		};
+		860EFB7D285F329900577919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860EFB5A285F329600577919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860EFB61285F329600577919;
+			remoteInfo = GoodMind;
+		};
+		860EFB88285F329900577919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860EFB5A285F329600577919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860EFB85285F329900577919;
+			remoteInfo = "GoodMind WatchKit App";
+		};
+		860EFB93285F329A00577919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860EFB5A285F329600577919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860EFB90285F329A00577919;
+			remoteInfo = "GoodMind WatchKit Extension";
+		};
+		860EFBAC285F329B00577919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860EFB5A285F329600577919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860EFB90285F329A00577919;
+			remoteInfo = "GoodMind WatchKit Extension";
+		};
+		860EFBB6285F329B00577919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860EFB5A285F329600577919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860EFB85285F329900577919;
+			remoteInfo = "GoodMind WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		860EFBC2285F329B00577919 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				860EFB92285F329A00577919 /* GoodMind WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFBC6285F329B00577919 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				860EFB87285F329900577919 /* GoodMind WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		860EFB62285F329600577919 /* GoodMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860EFB65285F329600577919 /* GoodMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindApp.swift; sourceTree = "<group>"; };
+		860EFB67285F329600577919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		860EFB69285F329800577919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860EFB6C285F329800577919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		860EFB72285F329800577919 /* GoodMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860EFB76285F329800577919 /* GoodMindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindTests.swift; sourceTree = "<group>"; };
+		860EFB7C285F329900577919 /* GoodMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860EFB80285F329900577919 /* GoodMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindUITests.swift; sourceTree = "<group>"; };
+		860EFB82285F329900577919 /* GoodMindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		860EFB86285F329900577919 /* GoodMind WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoodMind WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860EFB8B285F329A00577919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860EFB91285F329A00577919 /* GoodMind WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GoodMind WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860EFB96285F329A00577919 /* GoodMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindApp.swift; sourceTree = "<group>"; };
+		860EFB98285F329A00577919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		860EFB9A285F329A00577919 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		860EFB9C285F329A00577919 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		860EFB9E285F329A00577919 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		860EFBA0285F329B00577919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860EFBA3285F329B00577919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		860EFBA5285F329B00577919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860EFBA6285F329B00577919 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		860EFBAB285F329B00577919 /* GoodMind WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoodMind WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860EFBAF285F329B00577919 /* GoodMind_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMind_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		860EFBB5285F329B00577919 /* GoodMind WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoodMind WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860EFBB9285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMind_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		860EFBBB285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMind_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860EFB5F285F329600577919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB6F285F329800577919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB79285F329900577919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB8E285F329A00577919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFBA8285F329B00577919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFBB2285F329B00577919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860EFB59285F329600577919 = {
+			isa = PBXGroup;
+			children = (
+				860EFB64285F329600577919 /* GoodMind */,
+				860EFB75285F329800577919 /* GoodMindTests */,
+				860EFB7F285F329900577919 /* GoodMindUITests */,
+				860EFB8A285F329900577919 /* GoodMind WatchKit App */,
+				860EFB95285F329A00577919 /* GoodMind WatchKit Extension */,
+				860EFBAE285F329B00577919 /* GoodMind WatchKit AppTests */,
+				860EFBB8285F329B00577919 /* GoodMind WatchKit AppUITests */,
+				860EFB63285F329600577919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		860EFB63285F329600577919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860EFB62285F329600577919 /* GoodMind.app */,
+				860EFB72285F329800577919 /* GoodMindTests.xctest */,
+				860EFB7C285F329900577919 /* GoodMindUITests.xctest */,
+				860EFB86285F329900577919 /* GoodMind WatchKit App.app */,
+				860EFB91285F329A00577919 /* GoodMind WatchKit Extension.appex */,
+				860EFBAB285F329B00577919 /* GoodMind WatchKit AppTests.xctest */,
+				860EFBB5285F329B00577919 /* GoodMind WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860EFB64285F329600577919 /* GoodMind */ = {
+			isa = PBXGroup;
+			children = (
+				860EFB65285F329600577919 /* GoodMindApp.swift */,
+				860EFB67285F329600577919 /* ContentView.swift */,
+				860EFB69285F329800577919 /* Assets.xcassets */,
+				860EFB6B285F329800577919 /* Preview Content */,
+			);
+			path = GoodMind;
+			sourceTree = "<group>";
+		};
+		860EFB6B285F329800577919 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				860EFB6C285F329800577919 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		860EFB75285F329800577919 /* GoodMindTests */ = {
+			isa = PBXGroup;
+			children = (
+				860EFB76285F329800577919 /* GoodMindTests.swift */,
+			);
+			path = GoodMindTests;
+			sourceTree = "<group>";
+		};
+		860EFB7F285F329900577919 /* GoodMindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				860EFB80285F329900577919 /* GoodMindUITests.swift */,
+				860EFB82285F329900577919 /* GoodMindUITestsLaunchTests.swift */,
+			);
+			path = GoodMindUITests;
+			sourceTree = "<group>";
+		};
+		860EFB8A285F329900577919 /* GoodMind WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				860EFB8B285F329A00577919 /* Assets.xcassets */,
+			);
+			path = "GoodMind WatchKit App";
+			sourceTree = "<group>";
+		};
+		860EFB95285F329A00577919 /* GoodMind WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				860EFB96285F329A00577919 /* GoodMindApp.swift */,
+				860EFB98285F329A00577919 /* ContentView.swift */,
+				860EFB9A285F329A00577919 /* NotificationController.swift */,
+				860EFB9C285F329A00577919 /* NotificationView.swift */,
+				860EFB9E285F329A00577919 /* ComplicationController.swift */,
+				860EFBA0285F329B00577919 /* Assets.xcassets */,
+				860EFBA5285F329B00577919 /* Info.plist */,
+				860EFBA6285F329B00577919 /* PushNotificationPayload.apns */,
+				860EFBA2285F329B00577919 /* Preview Content */,
+			);
+			path = "GoodMind WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		860EFBA2285F329B00577919 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				860EFBA3285F329B00577919 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		860EFBAE285F329B00577919 /* GoodMind WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				860EFBAF285F329B00577919 /* GoodMind_WatchKit_AppTests.swift */,
+			);
+			path = "GoodMind WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		860EFBB8285F329B00577919 /* GoodMind WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				860EFBB9285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift */,
+				860EFBBB285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "GoodMind WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860EFB61285F329600577919 /* GoodMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860EFBC7285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind" */;
+			buildPhases = (
+				860EFB5E285F329600577919 /* Sources */,
+				860EFB5F285F329600577919 /* Frameworks */,
+				860EFB60285F329600577919 /* Resources */,
+				860EFBC6285F329B00577919 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860EFB89285F329900577919 /* PBXTargetDependency */,
+			);
+			name = GoodMind;
+			productName = GoodMind;
+			productReference = 860EFB62285F329600577919 /* GoodMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		860EFB71285F329800577919 /* GoodMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860EFBCA285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMindTests" */;
+			buildPhases = (
+				860EFB6E285F329800577919 /* Sources */,
+				860EFB6F285F329800577919 /* Frameworks */,
+				860EFB70285F329800577919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860EFB74285F329800577919 /* PBXTargetDependency */,
+			);
+			name = GoodMindTests;
+			productName = GoodMindTests;
+			productReference = 860EFB72285F329800577919 /* GoodMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		860EFB7B285F329900577919 /* GoodMindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860EFBCD285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMindUITests" */;
+			buildPhases = (
+				860EFB78285F329900577919 /* Sources */,
+				860EFB79285F329900577919 /* Frameworks */,
+				860EFB7A285F329900577919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860EFB7E285F329900577919 /* PBXTargetDependency */,
+			);
+			name = GoodMindUITests;
+			productName = GoodMindUITests;
+			productReference = 860EFB7C285F329900577919 /* GoodMindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		860EFB85285F329900577919 /* GoodMind WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860EFBC3285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit App" */;
+			buildPhases = (
+				860EFB84285F329900577919 /* Resources */,
+				860EFBC2285F329B00577919 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860EFB94285F329A00577919 /* PBXTargetDependency */,
+			);
+			name = "GoodMind WatchKit App";
+			productName = "GoodMind WatchKit App";
+			productReference = 860EFB86285F329900577919 /* GoodMind WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		860EFB90285F329A00577919 /* GoodMind WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860EFBBF285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit Extension" */;
+			buildPhases = (
+				860EFB8D285F329A00577919 /* Sources */,
+				860EFB8E285F329A00577919 /* Frameworks */,
+				860EFB8F285F329A00577919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoodMind WatchKit Extension";
+			productName = "GoodMind WatchKit Extension";
+			productReference = 860EFB91285F329A00577919 /* GoodMind WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		860EFBAA285F329B00577919 /* GoodMind WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860EFBD0285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit AppTests" */;
+			buildPhases = (
+				860EFBA7285F329B00577919 /* Sources */,
+				860EFBA8285F329B00577919 /* Frameworks */,
+				860EFBA9285F329B00577919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860EFBAD285F329B00577919 /* PBXTargetDependency */,
+			);
+			name = "GoodMind WatchKit AppTests";
+			productName = "GoodMind WatchKit AppTests";
+			productReference = 860EFBAB285F329B00577919 /* GoodMind WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		860EFBB4285F329B00577919 /* GoodMind WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860EFBD3285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit AppUITests" */;
+			buildPhases = (
+				860EFBB1285F329B00577919 /* Sources */,
+				860EFBB2285F329B00577919 /* Frameworks */,
+				860EFBB3285F329B00577919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860EFBB7285F329B00577919 /* PBXTargetDependency */,
+			);
+			name = "GoodMind WatchKit AppUITests";
+			productName = "GoodMind WatchKit AppUITests";
+			productReference = 860EFBB5285F329B00577919 /* GoodMind WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860EFB5A285F329600577919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					860EFB61285F329600577919 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					860EFB71285F329800577919 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 860EFB61285F329600577919;
+					};
+					860EFB7B285F329900577919 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 860EFB61285F329600577919;
+					};
+					860EFB85285F329900577919 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					860EFB90285F329A00577919 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					860EFBAA285F329B00577919 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 860EFB90285F329A00577919;
+					};
+					860EFBB4285F329B00577919 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 860EFB85285F329900577919;
+					};
+				};
+			};
+			buildConfigurationList = 860EFB5D285F329600577919 /* Build configuration list for PBXProject "GoodMind" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 860EFB59285F329600577919;
+			productRefGroup = 860EFB63285F329600577919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860EFB61285F329600577919 /* GoodMind */,
+				860EFB71285F329800577919 /* GoodMindTests */,
+				860EFB7B285F329900577919 /* GoodMindUITests */,
+				860EFB85285F329900577919 /* GoodMind WatchKit App */,
+				860EFB90285F329A00577919 /* GoodMind WatchKit Extension */,
+				860EFBAA285F329B00577919 /* GoodMind WatchKit AppTests */,
+				860EFBB4285F329B00577919 /* GoodMind WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860EFB60285F329600577919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFB6D285F329800577919 /* Preview Assets.xcassets in Resources */,
+				860EFB6A285F329800577919 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB70285F329800577919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB7A285F329900577919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB84285F329900577919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFB8C285F329A00577919 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB8F285F329A00577919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFBA4285F329B00577919 /* Preview Assets.xcassets in Resources */,
+				860EFBA1285F329B00577919 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFBA9285F329B00577919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFBB3285F329B00577919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860EFB5E285F329600577919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFB68285F329600577919 /* ContentView.swift in Sources */,
+				860EFB66285F329600577919 /* GoodMindApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB6E285F329800577919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFB77285F329800577919 /* GoodMindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB78285F329900577919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFB83285F329900577919 /* GoodMindUITestsLaunchTests.swift in Sources */,
+				860EFB81285F329900577919 /* GoodMindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFB8D285F329A00577919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFB9B285F329A00577919 /* NotificationController.swift in Sources */,
+				860EFB99285F329A00577919 /* ContentView.swift in Sources */,
+				860EFB9F285F329A00577919 /* ComplicationController.swift in Sources */,
+				860EFB97285F329A00577919 /* GoodMindApp.swift in Sources */,
+				860EFB9D285F329A00577919 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFBA7285F329B00577919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFBB0285F329B00577919 /* GoodMind_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860EFBB1285F329B00577919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860EFBBC285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				860EFBBA285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		860EFB74285F329800577919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860EFB61285F329600577919 /* GoodMind */;
+			targetProxy = 860EFB73285F329800577919 /* PBXContainerItemProxy */;
+		};
+		860EFB7E285F329900577919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860EFB61285F329600577919 /* GoodMind */;
+			targetProxy = 860EFB7D285F329900577919 /* PBXContainerItemProxy */;
+		};
+		860EFB89285F329900577919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860EFB85285F329900577919 /* GoodMind WatchKit App */;
+			targetProxy = 860EFB88285F329900577919 /* PBXContainerItemProxy */;
+		};
+		860EFB94285F329A00577919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860EFB90285F329A00577919 /* GoodMind WatchKit Extension */;
+			targetProxy = 860EFB93285F329A00577919 /* PBXContainerItemProxy */;
+		};
+		860EFBAD285F329B00577919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860EFB90285F329A00577919 /* GoodMind WatchKit Extension */;
+			targetProxy = 860EFBAC285F329B00577919 /* PBXContainerItemProxy */;
+		};
+		860EFBB7285F329B00577919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860EFB85285F329900577919 /* GoodMind WatchKit App */;
+			targetProxy = 860EFBB6285F329B00577919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		860EFBBD285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		860EFBBE285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		860EFBC0285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodMind WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoodMind WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GoodMind WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		860EFBC1285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodMind WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoodMind WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GoodMind WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		860EFBC4285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = GoodMind_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "GoodMind WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.webshey.GoodMind;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		860EFBC5285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = GoodMind_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "GoodMind WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.webshey.GoodMind;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		860EFBC8285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodMind/Preview Content\"";
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		860EFBC9285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodMind/Preview Content\"";
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860EFBCB285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodMind.app/GoodMind";
+			};
+			name = Debug;
+		};
+		860EFBCC285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodMind.app/GoodMind";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860EFBCE285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodMind;
+			};
+			name = Debug;
+		};
+		860EFBCF285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodMind;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860EFBD1285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webshey.GoodMind-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodMind WatchKit Extension.appex/GoodMind WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		860EFBD2285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webshey.GoodMind-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodMind WatchKit Extension.appex/GoodMind WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		860EFBD4285F329B00577919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webshey.GoodMind-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GoodMind WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		860EFBD5285F329B00577919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webshey.GoodMind-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GoodMind WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860EFB5D285F329600577919 /* Build configuration list for PBXProject "GoodMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBBD285F329B00577919 /* Debug */,
+				860EFBBE285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860EFBBF285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBC0285F329B00577919 /* Debug */,
+				860EFBC1285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860EFBC3285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBC4285F329B00577919 /* Debug */,
+				860EFBC5285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860EFBC7285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBC8285F329B00577919 /* Debug */,
+				860EFBC9285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860EFBCA285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBCB285F329B00577919 /* Debug */,
+				860EFBCC285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860EFBCD285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBCE285F329B00577919 /* Debug */,
+				860EFBCF285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860EFBD0285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBD1285F329B00577919 /* Debug */,
+				860EFBD2285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860EFBD3285F329B00577919 /* Build configuration list for PBXNativeTarget "GoodMind WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860EFBD4285F329B00577919 /* Debug */,
+				860EFBD5285F329B00577919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 860EFB5A285F329600577919 /* Project object */;
+}
