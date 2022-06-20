@@ -27,10 +27,10 @@ struct TimerView: View {
             Circle()
                 .stroke(.black.opacity(0.2), lineWidth: 80)
                 .frame(width: 260, height: 260, alignment: .center)
-            Image("Richie_3")
+            Image("Clock")
                 .resizable()
                 .scaledToFit()
-                .offset(x: 60)
+                .padding(90)
             VStack{
                 Text("Hello There".uppercased())
                     .foregroundColor(.white)
