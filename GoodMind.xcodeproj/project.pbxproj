@@ -15,20 +15,15 @@
 		860EFB81285F329900577919 /* GoodMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB80285F329900577919 /* GoodMindUITests.swift */; };
 		860EFB83285F329900577919 /* GoodMindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB82285F329900577919 /* GoodMindUITestsLaunchTests.swift */; };
 		860EFB87285F329900577919 /* GoodMind WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 860EFB86285F329900577919 /* GoodMind WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		860EFB8C285F329A00577919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFB8B285F329A00577919 /* Assets.xcassets */; };
 		860EFB92285F329A00577919 /* GoodMind WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 860EFB91285F329A00577919 /* GoodMind WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		860EFB97285F329A00577919 /* GoodMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB96285F329A00577919 /* GoodMindApp.swift */; };
-		860EFB99285F329A00577919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB98285F329A00577919 /* ContentView.swift */; };
-		860EFB9B285F329A00577919 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB9A285F329A00577919 /* NotificationController.swift */; };
-		860EFB9D285F329A00577919 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB9C285F329A00577919 /* NotificationView.swift */; };
-		860EFB9F285F329A00577919 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFB9E285F329A00577919 /* ComplicationController.swift */; };
-		860EFBA1285F329B00577919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFBA0285F329B00577919 /* Assets.xcassets */; };
-		860EFBA4285F329B00577919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EFBA3285F329B00577919 /* Preview Assets.xcassets */; };
-		860EFBB0285F329B00577919 /* GoodMind_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFBAF285F329B00577919 /* GoodMind_WatchKit_AppTests.swift */; };
-		860EFBBA285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFBB9285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift */; };
-		860EFBBC285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EFBBB285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift */; };
 		866BBE2C286040120052B55D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE2B286040120052B55D /* TimerView.swift */; };
 		866BBE2E286041110052B55D /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE2D286041110052B55D /* CreditView.swift */; };
+		866BBE35286092AC0052B55D /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE34286092AC0052B55D /* GestureView.swift */; };
+		866BBE3728614FB90052B55D /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE3628614FB80052B55D /* InfoPanelView.swift */; };
+		866BBE39286157B30052B55D /* ExpandableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE38286157B30052B55D /* ExpandableButtonView.swift */; };
+		866BBE3B286189430052B55D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE3A286189430052B55D /* ControlsView.swift */; };
+		866BBE3F286311F10052B55D /* PageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE3E286311F10052B55D /* PageDataModel.swift */; };
+		866BBE41286311FE0052B55D /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BBE40286311FE0052B55D /* PageData.swift */; };
 		86E8B2C3285F37E000621AAE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E8B2C2285F37E000621AAE /* HomeView.swift */; };
 		86E8B2CF28601E9100621AAE /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86E8B2CD28601E5900621AAE /* chimeup.mp3 */; };
 		86E8B2D028601E9500621AAE /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 86E8B2CE28601E5900621AAE /* success.m4a */; };
@@ -118,25 +113,18 @@
 		860EFB80285F329900577919 /* GoodMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindUITests.swift; sourceTree = "<group>"; };
 		860EFB82285F329900577919 /* GoodMindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		860EFB86285F329900577919 /* GoodMind WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoodMind WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		860EFB8B285F329A00577919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		860EFB91285F329A00577919 /* GoodMind WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GoodMind WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		860EFB96285F329A00577919 /* GoodMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMindApp.swift; sourceTree = "<group>"; };
-		860EFB98285F329A00577919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		860EFB9A285F329A00577919 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		860EFB9C285F329A00577919 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		860EFB9E285F329A00577919 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		860EFBA0285F329B00577919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		860EFBA3285F329B00577919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		860EFBA5285F329B00577919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		860EFBA6285F329B00577919 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		860EFBAB285F329B00577919 /* GoodMind WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoodMind WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		860EFBAF285F329B00577919 /* GoodMind_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMind_WatchKit_AppTests.swift; sourceTree = "<group>"; };
 		860EFBB5285F329B00577919 /* GoodMind WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoodMind WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		860EFBB9285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMind_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
-		860EFBBB285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMind_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		860EFBD9285F35C500577919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		866BBE2B286040120052B55D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		866BBE2D286041110052B55D /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		866BBE34286092AC0052B55D /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		866BBE3628614FB80052B55D /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		866BBE38286157B30052B55D /* ExpandableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableButtonView.swift; sourceTree = "<group>"; };
+		866BBE3A286189430052B55D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		866BBE3E286311F10052B55D /* PageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDataModel.swift; sourceTree = "<group>"; };
+		866BBE40286311FE0052B55D /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		86E8B2C2285F37E000621AAE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		86E8B2CD28601E5900621AAE /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		86E8B2CE28601E5900621AAE /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
@@ -196,10 +184,6 @@
 				860EFB64285F329600577919 /* GoodMind */,
 				860EFB75285F329800577919 /* GoodMindTests */,
 				860EFB7F285F329900577919 /* GoodMindUITests */,
-				860EFB8A285F329900577919 /* GoodMind WatchKit App */,
-				860EFB95285F329A00577919 /* GoodMind WatchKit Extension */,
-				860EFBAE285F329B00577919 /* GoodMind WatchKit AppTests */,
-				860EFBB8285F329B00577919 /* GoodMind WatchKit AppUITests */,
 				860EFB63285F329600577919 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -221,6 +205,8 @@
 		860EFB64285F329600577919 /* GoodMind */ = {
 			isa = PBXGroup;
 			children = (
+				866BBE3D286311DE0052B55D /* Data */,
+				866BBE3C28630FD80052B55D /* Model */,
 				860EFB65285F329600577919 /* GoodMindApp.swift */,
 				86E8B2D128601EFC00621AAE /* Views */,
 				860EFBD9285F35C500577919 /* Info.plist */,
@@ -260,55 +246,6 @@
 			path = GoodMindUITests;
 			sourceTree = "<group>";
 		};
-		860EFB8A285F329900577919 /* GoodMind WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				860EFB8B285F329A00577919 /* Assets.xcassets */,
-			);
-			path = "GoodMind WatchKit App";
-			sourceTree = "<group>";
-		};
-		860EFB95285F329A00577919 /* GoodMind WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				860EFB96285F329A00577919 /* GoodMindApp.swift */,
-				860EFB98285F329A00577919 /* ContentView.swift */,
-				860EFB9A285F329A00577919 /* NotificationController.swift */,
-				860EFB9C285F329A00577919 /* NotificationView.swift */,
-				860EFB9E285F329A00577919 /* ComplicationController.swift */,
-				860EFBA0285F329B00577919 /* Assets.xcassets */,
-				860EFBA5285F329B00577919 /* Info.plist */,
-				860EFBA6285F329B00577919 /* PushNotificationPayload.apns */,
-				860EFBA2285F329B00577919 /* Preview Content */,
-			);
-			path = "GoodMind WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		860EFBA2285F329B00577919 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				860EFBA3285F329B00577919 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		860EFBAE285F329B00577919 /* GoodMind WatchKit AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				860EFBAF285F329B00577919 /* GoodMind_WatchKit_AppTests.swift */,
-			);
-			path = "GoodMind WatchKit AppTests";
-			sourceTree = "<group>";
-		};
-		860EFBB8285F329B00577919 /* GoodMind WatchKit AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				860EFBB9285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift */,
-				860EFBBB285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift */,
-			);
-			path = "GoodMind WatchKit AppUITests";
-			sourceTree = "<group>";
-		};
 		860EFBD6285F347200577919 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +254,7 @@
 				86E8B2D228601F7D00621AAE /* OnboardingView.swift */,
 				866BBE2B286040120052B55D /* TimerView.swift */,
 				866BBE2D286041110052B55D /* CreditView.swift */,
+				866BBE34286092AC0052B55D /* GestureView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -343,6 +281,22 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		866BBE3C28630FD80052B55D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				866BBE3E286311F10052B55D /* PageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		866BBE3D286311DE0052B55D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				866BBE40286311FE0052B55D /* PageData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		86E8B2CC28601E5900621AAE /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +309,9 @@
 		86E8B2D128601EFC00621AAE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				866BBE3628614FB80052B55D /* InfoPanelView.swift */,
+				866BBE38286157B30052B55D /* ExpandableButtonView.swift */,
+				866BBE3A286189430052B55D /* ControlsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -578,7 +535,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860EFB8C285F329A00577919 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,8 +542,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860EFBA4285F329B00577919 /* Preview Assets.xcassets in Resources */,
-				860EFBA1285F329B00577919 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,11 +568,17 @@
 			files = (
 				866BBE2C286040120052B55D /* TimerView.swift in Sources */,
 				86E8B2D52860236E00621AAE /* ImageSyncView.swift in Sources */,
+				866BBE3728614FB90052B55D /* InfoPanelView.swift in Sources */,
 				86E8B2C3285F37E000621AAE /* HomeView.swift in Sources */,
 				86E8B2D328601F7D00621AAE /* OnboardingView.swift in Sources */,
 				860EFB68285F329600577919 /* ContentView.swift in Sources */,
+				866BBE3F286311F10052B55D /* PageDataModel.swift in Sources */,
+				866BBE39286157B30052B55D /* ExpandableButtonView.swift in Sources */,
 				860EFB66285F329600577919 /* GoodMindApp.swift in Sources */,
+				866BBE35286092AC0052B55D /* GestureView.swift in Sources */,
+				866BBE41286311FE0052B55D /* PageData.swift in Sources */,
 				866BBE2E286041110052B55D /* CreditView.swift in Sources */,
+				866BBE3B286189430052B55D /* ControlsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,11 +603,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860EFB9B285F329A00577919 /* NotificationController.swift in Sources */,
-				860EFB99285F329A00577919 /* ContentView.swift in Sources */,
-				860EFB9F285F329A00577919 /* ComplicationController.swift in Sources */,
-				860EFB97285F329A00577919 /* GoodMindApp.swift in Sources */,
-				860EFB9D285F329A00577919 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,7 +610,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860EFBB0285F329B00577919 /* GoodMind_WatchKit_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,8 +617,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860EFBBC285F329B00577919 /* GoodMind_WatchKit_AppUITestsLaunchTests.swift in Sources */,
-				860EFBBA285F329B00577919 /* GoodMind_WatchKit_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,7 +833,6 @@
 		860EFBC4285F329B00577919 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -907,7 +858,6 @@
 		860EFBC5285F329B00577919 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -936,15 +886,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GoodMind/Preview Content\"";
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoodMind/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -953,12 +905,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.GoodMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -970,12 +923,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GoodMind/Preview Content\"";
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoodMind/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -984,12 +938,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.GoodMind;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.GoodMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1081,7 +1035,6 @@
 		860EFBD1285F329B00577919 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1102,7 +1055,6 @@
 		860EFBD2285F329B00577919 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

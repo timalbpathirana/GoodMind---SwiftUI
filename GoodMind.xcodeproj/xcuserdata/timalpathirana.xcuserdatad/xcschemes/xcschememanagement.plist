@@ -4,18 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GoodMind WatchKit App (Complication).xcscheme_^#shared#^_</key>
+		<key>GoodMind WatchKit App (Complication).xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>GoodMind WatchKit App (Notification).xcscheme_^#shared#^_</key>
+		<key>GoodMind WatchKit App (Notification).xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>GoodMind WatchKit App.xcscheme_^#shared#^_</key>
+		<key>GoodMind WatchKit App.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
@@ -23,6 +29,39 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>860EFB61285F329600577919</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>860EFB71285F329800577919</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>860EFB7B285F329900577919</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>860EFB85285F329900577919</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>860EFBAA285F329B00577919</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>860EFBB4285F329B00577919</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -70,15 +70,16 @@ struct HomeView: View {
                     })
                 Spacer()
                 // Credit
-                Image(systemName: "person")
+                Image(systemName: "photo.on.rectangle.angled")
                     .font(.system(size: 40))
                     .onTapGesture {
                         isCreditssVisible.toggle()
 
                     }
-                    .sheet(isPresented: $isCreditssVisible, content: {
-                        CreditView()
+                    .fullScreenCover(isPresented: $isCreditssVisible, content: {
+                       GestureView()
                     })
+                    
             
             }
             .padding(.horizontal, 50)
